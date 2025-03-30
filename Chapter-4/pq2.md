@@ -1,4 +1,4 @@
-## Prompt: Ask me 10 more questions covering all topics, be as detailed as possible, throw many curveballs and make the question really hard. Imagine if you were training a student to take a test on this content. You only have 10 questions to prepare him for this test. Choose your questions carefully. 
+# Prompt: Ask me 10 more questions covering all topics, be as detailed as possible, throw many curveballs and make the question really hard. Imagine if you were training a student to take a test on this content. You only have 10 questions to prepare him for this test. Choose your questions carefully. 
 
 1. Multiple Choice:
 A 4000-byte IP datagram must traverse a link with an MTU of 1500 bytes. Assuming the IP header is 20 bytes and no options are used, which of the following correctly describes the fragmentation process?
@@ -7,7 +7,7 @@ B. The first fragment carries 1480 bytes (20-byte header + 1460 bytes data), and
 C. All fragments, including the first, are required to carry an identical header checksum, and the fragment offsets are measured in bytes.
 D. The fragmentation is performed by every router along the path to ensure each fragment perfectly fits the MTU.
 
-# B, The first fragment includes a 20-byte header with 1460 bytes of data (total 1480 bytes). The subsequent fragments carry data in multiples of 8 bytes, with the “More Fragments” flag set on all fragments except the last one. In this case, the fragmentation splits the packet into three fragments (1480 + 1480 + 1040 bytes).
+### B, The first fragment includes a 20-byte header with 1460 bytes of data (total 1480 bytes). The subsequent fragments carry data in multiples of 8 bytes, with the “More Fragments” flag set on all fragments except the last one. In this case, the fragmentation splits the packet into three fragments (1480 + 1480 + 1040 bytes).
 ![Example pic](1.png)
 
 2. Multiple Choice:
@@ -17,7 +17,7 @@ B. Removal of the header checksum and use of a fixed-length header of 40 bytes.
 C. Fragmentation at every router to better manage variable MTU sizes.
 D. Introduction of a dynamic header length to support multiple upper-layer protocols.
 
-# B, IPv6 enhances processing speed by using a fixed-length 40-byte header and by removing the header checksum. This simplifies and speeds up router processing compared to the variable-length IPv4 header (20–60 bytes).
+### B, IPv6 enhances processing speed by using a fixed-length 40-byte header and by removing the header checksum. This simplifies and speeds up router processing compared to the variable-length IPv4 header (20–60 bytes).
 
 3. True/False:
 In a Software-Defined Networking (SDN) architecture using OpenFlow, routers (or switches) autonomously modify their flow tables based solely on local observations without any coordination from a centralized controller.
