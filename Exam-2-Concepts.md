@@ -1,91 +1,90 @@
-# *Exam 2 Expectations*
+# *Exam 2 Expectations* 
+
+---
+
 - Chapters 4, 5, 6
-- DOcumetnaryr
+- Documentary + YY videos
+- TCP echo server and UDP echo server code + in-class activity
+- ~35 Questions give or take, Multiple choice, Free response, Coding, Choose all that applies
+- 50 minutes
 
- tcp echo server and udp echo server code, + in-class activity
-
-
- 50 minutes
-
- - Differnt layes, packaging units
- - Application layer adddresses unit (port number)
-    - KNow all unit for all layers
- - What servcies are provided in the networkk layer
- - Difference ebetwween siwthc an drouyter
- - True/Flase between TCP and UDP headers
-    - Field
-    - Length of the headers
+---
+- Different layers and their packaging units
+- Application layer addressing unit (port number)
+- Know all units for all layers
+- What services are provided in the network layer
+- Difference between a switch and a router
+- True/False questions about TCP and UDP headers
+- Header fields and their lengths
 - Unix file system
-- Types of switching fabrics, how they work
-- Classicifcation for IP address
-    - Class A, B ,C , D
-    - Slider scheme what is that prefix?
-- IP address, mask, braodcast address, address of teh nw, lookback address, number of host in the nw (activity)
-- Dijkastra algorithm
-    - How does it work, given a graph, find shortest path
-- Immun ization vs optimzation , what i greedy algo and how does rthat apply to dijktra
-- COde questions some snippets from TCP adn some from UDP
-    - Write a piece of code o this exam
-    - "Show me how to do x"
-- Select all true statmenets below about socket, nw byte order, chapter 4/5 stuff
-- different frequncies
-- wifi, blue tooth, nfc, AM/FM, wireless standard (not high frequency)
-    - What is the range, pros and cons, where are they used (activity)
+- Types of switching fabrics and how they work
+- Classification of IP addresses
+- Class A, B, C, D
+- CIDR scheme: What is the prefix?
+- IP address, subnet mask, broadcast address, network address, loopback address, number of hosts in the network (activity)
+- Dijkstra's algorithm
+    - How it works: Given a graph, find the shortest path
+    - Optimization vs. greedy algorithm: How does it apply to Dijkstra's algorithm?
+- Code questions: Some snippets from TCP and UDP
+- Write a piece of code during the exam
+- "Show me how to do X"
+- Select all true statements about sockets, network byte order, and Chapter 4/5 concepts
+- Different frequencies
+    - Wi-Fi, Bluetooth, NFC, AM/FM, wireless standards (not high frequency)
+    - Range, pros and cons, and use cases (activity)
 - Parity questions
     - Odd and even parity
-    - Similar to parity questions on the quiz, find the error
-- Channel partiitoning protocol 
-    - Ffreqneucy, time
+    - Similar to quiz questions: Find the error
+- Channel partitioning protocols
+    - Frequency and time
 - Random access protocols
-    - CSMA, collision advoidance/detection
+    - CSMA, collision avoidance/detection
 - Taking turns protocols
-    - Interference red and yellow overlap, look at the picture and understand what it means (textbook)
-- Mac addresses
-- What does borad casrtin mean, what is broadcast address
-- What linux command to find that
+- Interference: Red and yellow overlap (refer to textbook picture for understanding)
+- MAC addresses
+    - What does broadcasting mean? What is a broadcast address?
+    - Linux command to find the broadcast address
 - Documentary
-    - rumble (4 major threats)
+    - Rumble (4 major threats)
     - Underwater cable video
     - Ted Talk
-    - technical questions (simple facts), Differnce ebetween sum emp 
-- Paper or lockdown
-- Material: Powerpoint + Chapter
-- 
+- Technical questions (simple facts): Differences between some examples
+- Exam format: Paper or lockdown
+- Material: PowerPoint + Chapters
 
-How to improve memory
-- like working out
-- practice brain stuff
-- muscle memory, use your brain more often
+---
+
+### How to Improve Memory
+- Similar to working out
+- Practice brain exercises
+- Muscle memory: Use your brain more often
 - Memory games
-- More your use your brain while young the later the onset dimentia
+- The more you use your brain while young, the later the onset of dementia
 
-**Linux file system**
-- All linux file system start at root/ directory
-- "/" root directory
-    - bin/, home/, boot/, dev/
-        - boot/ files that boot your OS, loading kernal into memory
-            - Linux kernal, vmlinuz (points to the latest version of the kernal)
-        - bin/ contians "binary" (executbale code)
-            - any program that is executbale (aka "binary")
-            - all commands are applications (ls, make, cd) <- all names of applications
-        - sbin/ superuser applications
-            - you must be a privlage user to use these binary
-        - home/
-            - where the users live, folder for everything user in your system
-        - dev/
-            - physical devices connected to your laptop
-            - Sudo devices, every file is associated with that device
-            - Device driver, a prorgam that allows you to access that device
-            - stderr stdin stdout
-                - proc/self/fd/2, 0, and 1 respectively
-        - proc/ runs processes
-            - all process has a number associated with it, the name of the folder is the 
-                id of teh processes running somewhere in teh system
-        - etc/ mostly config files  
-        - opt/ optional software
-            - made for linux but not by linux
-            - skype, zoom, chrome
-        - var/ various lengths files
-            - mail/ mail that arrives tot he system, mail can grow (get mail) or shrink (delete mail) so size is variable
-            - logs/ logs the system activity, user has a failed login attempt
-            - 
+---
+
+### **Linux File System**
+- All Linux file systems start at the root `/` directory.
+- `/` (root directory)
+    - `bin/`: Contains "binary" (executable code)
+        - Any program that is executable (aka "binary")
+        - All commands are applications (e.g., `ls`, `make`, `cd`)
+    - `sbin/`: Superuser applications
+        - Requires privileged user access to use these binaries
+    - `home/`: User directories
+        - Contains everything related to users in the system
+    - `dev/`: Physical devices connected to the system
+        - Pseudo-devices: Every file is associated with a device
+        - Device driver: A program that allows access to a device
+        - `stderr`, `stdin`, `stdout`:
+            - `/proc/self/fd/2`, `/proc/self/fd/0`, and `/proc/self/fd/1` respectively
+    - `proc/`: Running processes
+        - Each process has an associated ID, represented as the folder name
+    - `etc/`: Configuration files
+    - `opt/`: Optional software
+        - Software made for Linux but not by Linux (e.g., Skype, Zoom, Chrome)
+    - `var/`: Variable-length files
+        - `mail/`: System mail (can grow or shrink)
+        - `logs/`: Logs system activity (e.g., failed login attempts)
+    - `boot/`: Files that boot the OS, loading the kernel into memory
+        - Linux kernel: `vmlinuz` (points to the latest kernel version)
