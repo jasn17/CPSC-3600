@@ -26,8 +26,8 @@
     - How it works: Given a graph, find the shortest path
     - Optimization vs. greedy algorithm: How does it apply to Dijkstra's algorithm?
 - Code questions: Some snippets from TCP and UDP
-- Write a piece of code during the exam
-- "Show me how to do X"
+    - Write a piece of code during the exam
+    - "Show me how to do X"
 - Select all true statements about sockets, network byte order, and Chapter 4/5 concepts
 - Different frequencies
     - Wi-Fi, Bluetooth, NFC, AM/FM, wireless standards (not high frequency)
@@ -40,7 +40,7 @@
 - Random access protocols
     - CSMA, collision avoidance/detection
 - Taking turns protocols
-- Interference: Red and yellow overlap (refer to textbook picture for understanding)
+- Interference: Red and yellow overlap (refer to textbook picture for understanding each part of what that diagram mean)
 - MAC addresses
     - What does broadcasting mean? What is a broadcast address?
     - Linux command to find the broadcast address
