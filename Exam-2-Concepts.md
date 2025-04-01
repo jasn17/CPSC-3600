@@ -43,5 +43,49 @@
 - Mac addresses
 - What does borad casrtin mean, what is broadcast address
 - What linux command to find that
+- Documentary
+    - rumble (4 major threats)
+    - Underwater cable video
+    - Ted Talk
+    - technical questions (simple facts), Differnce ebetween sum emp 
+- Paper or lockdown
+- Material: Powerpoint + Chapter
 - 
 
+How to improve memory
+- like working out
+- practice brain stuff
+- muscle memory, use your brain more often
+- Memory games
+- More your use your brain while young the later the onset dimentia
+
+**Linux file system**
+- All linux file system start at root/ directory
+- "/" root directory
+    - bin/, home/, boot/, dev/
+        - boot/ files that boot your OS, loading kernal into memory
+            - Linux kernal, vmlinuz (points to the latest version of the kernal)
+        - bin/ contians "binary" (executbale code)
+            - any program that is executbale (aka "binary")
+            - all commands are applications (ls, make, cd) <- all names of applications
+        - sbin/ superuser applications
+            - you must be a privlage user to use these binary
+        - home/
+            - where the users live, folder for everything user in your system
+        - dev/
+            - physical devices connected to your laptop
+            - Sudo devices, every file is associated with that device
+            - Device driver, a prorgam that allows you to access that device
+            - stderr stdin stdout
+                - proc/self/fd/2, 0, and 1 respectively
+        - proc/ runs processes
+            - all process has a number associated with it, the name of the folder is the 
+                id of teh processes running somewhere in teh system
+        - etc/ mostly config files  
+        - opt/ optional software
+            - made for linux but not by linux
+            - skype, zoom, chrome
+        - var/ various lengths files
+            - mail/ mail that arrives tot he system, mail can grow (get mail) or shrink (delete mail) so size is variable
+            - logs/ logs the system activity, user has a failed login attempt
+            - 
