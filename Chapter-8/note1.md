@@ -2,41 +2,55 @@
 
 ---
 
-What is the most secure computer in the world?
-A: The one that is not connected to the internet, somewhere in a secure room guarded by armed guards.
+### What is the most secure computer in the world?
+**A:** The one that is not connected to the internet, located in a secure room, and guarded by armed personnel.
 
 ---
 
-# What is network security?
-CIA Traid plus AAA model
-- CIA triad - information security model 
-    - **Confidentiality-Integrity-Avaliability**
-    - Only avaliable to view to intended person, is correct and untampered with, is avaliable when I need it
-    - three principles are cornerstone of secuirty infrastructure
-    - also tenets of cyber security
-- AAA 
-    - methods to achieve cybersecuirty objectives 
-    - Authentication, Authoirzation, and Accountibility
-    - Are you the person inteneded to view this information Are you authroized to read, write, and exectute? Are you accountible to what happens to the computer system?
+## What is Network Security?
 
-# Friends and Enemeis: Alice, Bob, Trudy
-- A and B are commmunicating, T is intruder
-- What can a bad guy do?
-    - eavesdrop (Opening cars without the key)
-    - insert messages into connection
-    - impersonation (pretend to be someone else)
-    - hijacking
-    - denial of service
+### CIA Triad and AAA Model
 
-# Breaking Encryption Scheme
-- Cipher only attack
-    - Trudy has ciphertext she can analyze
-- Two approaches
-    - **Brute force** search through all keys
-    - **Statistical analysis** 
-- Known-plain text attack
-    - trudy has plaintext corresponding to ciphertext
+#### CIA Triad (Information Security Model)
+- **Confidentiality**: Information is only accessible to the intended person.
+- **Integrity**: Information is correct and untampered with.
+- **Availability**: Information is accessible when needed.
+- These three principles are the cornerstone of security infrastructure and the tenets of cybersecurity.
 
-# Symmetric Key Cryptography
-- This is a super<sup>script<sup>
-- THis is a sub<sub>script<sub>
+#### AAA Model
+- Methods to achieve cybersecurity objectives:
+    - **Authentication**: Are you the person intended to view this information?
+    - **Authorization**: Are you authorized to read, write, and execute?
+    - **Accountability**: Are you accountable for what happens to the computer system?
+
+---
+
+## Friends and Enemies: Alice, Bob, and Trudy
+
+- **Alice (A)** and **Bob (B)** are communicating, while **Trudy (T)** is the intruder.
+- What can a bad actor do?
+    - **Eavesdrop**: Intercept communication (e.g., opening cars without the key).
+    - **Insert Messages**: Inject messages into the connection.
+    - **Impersonation**: Pretend to be someone else.
+    - **Hijacking**: Take over a session.
+    - **Denial of Service (DoS)**: Disrupt service availability.
+
+---
+
+## Breaking Encryption Schemes
+
+### Cipher-Only Attack
+- Trudy has ciphertext to analyze.
+- Two approaches:
+    - **Brute Force**: Search through all possible keys.
+    - **Statistical Analysis**: Use patterns to break encryption.
+
+### Known-Plaintext Attack
+- Trudy has plaintext corresponding to ciphertext.
+
+---
+
+## Symmetric Key Cryptography
+
+- A cryptographic method where the same key is used for both encryption and decryption.
+
