@@ -135,6 +135,10 @@ m = K<sub>S<sub>(K<sub>S<sub>(m))
 ```
 A digest is the "fingerprint" of a message.
 It’s what you get after running something (like a password or a file) through a hash function.
+
+If you hash the message "hello" with MD5, you get this digest:
+
+MD5("hello") → 5d41402abc4b2a76b9719d911017c592
 ```
 
 Hash Functions: One-way, fixed-length digests
