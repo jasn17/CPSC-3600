@@ -28,14 +28,16 @@
 - **/etc/group**
 	- Lists all user groups in the system.
 - **/etc/sudoers**
+	- Defines which groups or users have administrative privileges.
+	- Specifies rules for executing commands as other users (typically root) using the `visudo` command.
+		- To modify this file safely, use the `visudo` command. (This was not from class)
 	- Lists users permitted to execute commands as other users (typically the root).
-	- To modify this file safely, use the `visudo` command.
 	- Allows fine-grained control over which administrative privileges a user receives.
 
 # Privileged vs. Normal Files
 - **Privileged Files**
 	- Examples: `/etc/shadow`, `/etc/sudoers`
-	- These files are restricted and typically only accessible by the root user.
+	- These files are restricted and typically only accessible by the root user with sudo permissions.
 - **Normal Files**
 	- Examples: Files in `/etc/passwd` which provide public user account details (without passwords).
 
@@ -50,7 +52,7 @@
 - **/boot**
 	- Contains boot loader files and the compressed Linux kernel images.
 	- The kernel file (e.g., `vmlinuz-6.8.0-57-generic`) is the image used at boot time.
-	- Older kernels may be kept as backups in case the current one fails.
+	- Older kernels 1 version behind may be kept as backups in case the current one fails.
 
 # Device Files
 - **/dev**
