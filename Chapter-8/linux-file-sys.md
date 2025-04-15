@@ -73,16 +73,18 @@
 # Additional Software
 - **/opt**
 	- A directory reserved for optional or third-party software that does not adhere to the standard file hierarchy.
+		- Zoom, Chrome, Skype
 
 # Variable Data Files
 - **/var**
-	- Contains files that vary in size and content over time, such as logs and spool files.
+	- Contains files that vary in size and content over time, such as logs files
 	- Examples:
 		- `/var/log`: Contains system log files like `auth.log` and `kern.log`.
 
 # Mount Points
 - **/mnt**
 	- A directory used as a mount point for temporarily attaching file systems (e.g., external hard drives, USB devices).
+		- Mounting is connecting an external file system to your local file system
 	- Often used for manual mounting of storage devices.
 
 # Useful Commands
@@ -100,5 +102,20 @@
 	- `/var`: Used for logging system events.
 	- `/proc`: Contains processes and system information.
 	
-Additional note: Understanding the Linux file system hierarchy is crucial for system administration, troubleshooting, and security.
+Note: Understanding the Linux file system hierarchy is crucial for system administration, troubleshooting, and security.
 
+# Directories covered
+```
+/
+├── bin
+├── boot
+├── dev
+├── etc
+├── home
+├── mnt
+├── opt
+├── proc
+├── sbin
+├── usr
+└── var
+```
