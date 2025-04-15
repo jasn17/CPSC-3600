@@ -67,4 +67,42 @@ Executables files = binaries
 # /dev
 	- device drivers, lets say you conntected a printer to the drectory, there will be a file for the printer
 	- All devices (physicla or virtual) are in this file
+	- stderr is in this directory
+
+# /proc
+	- stores the process of the kernal 
+	- lets say you run a.out, that is a process
+		- as soon as you finish running the process the process folder disappears
+		- Store metadata about the process who ran it, what size, how long, etc. 
+	- White files tell you informaiton about your system
+	- (Pic 7)
+
+# /usr
+	- contains applications and libarires NOT user informaiton
+
+# /opt
+	- contains optional files
+	- optional software, software that  is made for linux but not made by linux (Chrome, Zoom, Skype)
 	- 
+
+# /var
+	- files that are variable in size (can change smaller and larger in real time)
+	- auth.log a sudo command is logged here
+	- kern.log
+	- var = variable length, all files here changes in size
+	
+# /mnt
+	- Lets say I have an external hard drive and I want to plug it in and edit files in the harddrive
+		- `mnt` is attaching external file system to home file system
+		- Cameras, external hard drives are showned in the mnt directory
+
+# ls -a
+	- `-a` shows hidden files
+
+# Possible exam questions
+	- Matching
+	- which direcotry is populate dduring r untime
+	- whifch file live sin which direcotry
+
+# Which file will have acitvity when poweirng up youtr comptuer ?
+	- /var, /log, /boot, /proc, 
