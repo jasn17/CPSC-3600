@@ -78,6 +78,7 @@ Access
 ---
 
 # Symmetric Key Cryptography
+- Sender and Reciver share the same key for both decryption and encryption
 - Bob and Alice have share same key for both decryption and encryption
 
 **Subsitution Cipher**
