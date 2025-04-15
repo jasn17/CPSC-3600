@@ -123,6 +123,7 @@ m = K<sub>S<sub>(K<sub>S<sub>(m))
 ---
 
 # Digial Signatures
+- Like digital hand-written signitures
 - Purpose: Non-repudiation, authenticity, integrity
 - Uses hashing + private key encryption for signing
 - Recipient uses sender's public key to verify
