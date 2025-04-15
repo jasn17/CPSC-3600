@@ -19,10 +19,10 @@
 # Passwords and Authentication
 - **Password Storage**
 	- Encrypted password hashes are stored in `/etc/shadow`.
-	- Use a command like `sudo vim /etc/shadow` (or better, view carefully without editing) to inspect the file.
+	- Use a command like `sudo vim /etc/shadow` to view the file. This is an administrative-privileged file.
 	- The system compares the hash in `/etc/shadow` with the hash of the entered password during login.
 - **Related Files**
-	- `/etc/passwd` stores user account information (excluding passwords in modern systems).
+	- `/etc/passwd` stores user account information (no password is in here).
 
 # Groups and Sudoers Configuration
 - **/etc/group**
