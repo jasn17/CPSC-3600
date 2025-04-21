@@ -10,7 +10,6 @@
 ![](img/1.png)
 
 # Linux File System Basics
-![Image: Linux Hierarchical File System]
 - Linux does not use drive letters. The system is structured as a single hierarchical tree starting at the root directory `/`.
 
 # Managing Users
