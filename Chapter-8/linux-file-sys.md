@@ -68,7 +68,7 @@
 - **/dev**
 	- Contains device files that represent hardware devices (e.g., printers, disks) and virtual devices.
 	- Examples include `/dev/null`, `/dev/tty`, and entries for connected devices.
-![Image: Device Files Overview] 
+![Image: Device Files Overview]
 
 # Process and System Information
 - **/proc**
