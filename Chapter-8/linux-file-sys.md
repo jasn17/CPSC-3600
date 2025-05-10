@@ -33,12 +33,13 @@
 # Groups and Sudoers Configuration
 - **/etc/group**
 	- Lists all user groups in the system.
+	![](img/6.png)
 - **/etc/sudoers**
+	- The /etc/sudoers file controls who can use sudo and how.
 	- Defines which groups or users have administrative privileges.
-	- Specifies rules for executing commands as other users (typically root) using the `visudo` command.
-		- To modify this file safely, use the `visudo` command. (This was not from class)
 	- Lists users permitted to execute commands as other users (typically the root).
 	- Allows fine-grained control over which administrative privileges a user receives.
+	![](img/7.png)
 
 # Privileged vs. Normal Files
 - **Privileged Files**
@@ -51,8 +52,10 @@
 - Binaries are compiled executable files.
 - **/bin**
 	- Contains essential user command binaries (e.g., `ls`, `cp`, `mv`).
+	![](img/8.png)
 - **/sbin**
 	- Contains system binaries used primarily by the superuser for system administration.
+	![](img/5.png)
 
 # Boot-related Directories
 - **/boot**
@@ -65,7 +68,7 @@
 - **/dev**
 	- Contains device files that represent hardware devices (e.g., printers, disks) and virtual devices.
 	- Examples include `/dev/null`, `/dev/tty`, and entries for connected devices.
-![Image: Device Files Overview]
+![Image: Device Files Overview] 
 
 # Process and System Information
 - **/proc**
