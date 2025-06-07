@@ -18,7 +18,7 @@ Authentication: sender, receiver want to confirm identity of each
 other
 ●
 Message integrity: sender, receiver want to ensure message not
-altered (in transit, or afterwards) without detection 
+altered (in transit, or afterwards) without detection  
 ●
 Access 
 
