@@ -19,8 +19,8 @@ other
 ●
 Message integrity: sender, receiver want to ensure message not
 altered (in transit, or afterwards) without detection 
-●
-Access 
+● 
+Access  
 
 #### CIA triad – information security model
 - **Confidentiality**: Information is only accessible to the intended person.
