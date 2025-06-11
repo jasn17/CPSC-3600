@@ -131,7 +131,7 @@ m = K<sub>S<sub>(K<sub>S<sub>(m))
 
 ![](../img/6.png)
 
---- 
+---  
 
 # Hashing
 ```
